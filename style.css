@@ -1,0 +1,163 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color: black;
+    }
+
+    html,
+    body {
+
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .nav {
+        width: 100%;
+        height: 7vh;
+        /* background-color: rebeccapurple; */
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 10%;
+        margin: 2vw;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+        /* background-color: rgb(255, 255, 255); */
+    }
+
+    .menus {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+
+    }
+
+    .menu2 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .search {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-nav {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .icons {
+        width: 10%;
+        margin: 10px;
+        gap: 2vw;
+        display: flex;
+        font-size: 2vw;
+        /* justify-content: space-between; */
+    }
+
+    .arrow {
+        font-size: 2vw;
+        margin: 10px;
+    }
+
+    .right-nav {
+        position: absolute;
+        right: 0;
+        /* background-color: brown; */
+        height: 100%;
+        /* z-index: -1; */
+        display: flex;
+        align-items: center;
+        width: 7vh;
+        justify-content: center;
+    }
+
+    .sidebar {
+        display: flex;
+        rotate: 90deg;
+        gap: 3vw;
+        text-transform: uppercase;
+        font-size: 1.5vw;
+    }
+
+    .container {
+        position: absolute;
+        /* top: 10%; */
+        width: 100%;
+        height: 100%;
+        background-color: rgb(226, 43, 43);
+        /* z-index: -1; */
+        display: flex;
+
+    }
+
+    .left {
+
+        width: 30%;
+        height: 100%;
+        background-color: #6c5d5b;
+        color: aliceblue;
+    }
+
+    .right {
+        /* position: absolute; */
+        /* top: 0; */
+        width: 75%;
+        height: 100%;
+        background-color: #f5998a
+    }
+
+    .frame {
+        top:15%;
+        left: 19%;
+        width: 30%;
+        height: 70%;
+        position: absolute;
+        /* display: flex; */
+        border-right: 10px solid #ffaea2;
+        background-size: cover;
+        background-image: url("geranimo-wYy3rvvgjAU-unsplash.jpg");
+        background-color: aquamarine;
+        overflow: hidden;
+    }
+
+    h1{
+        rotate: 90deg;
+        font-size: 13.5vw;
+        position: absolute;
+        top: 35%;
+        color: #f5998a;
+        left: -14%;
+
+    }
+    h1:hover{
+        scale: .9;
+    }
+
+    a{
+        text-decoration: none;
+    }
